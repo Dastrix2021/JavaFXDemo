@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ScrollPane?>
+<AnchorPane fx:id="title" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="285.0" prefWidth="600.0" style="-fx-background-color: #6b6860;" styleClass="anchor" stylesheets="@style.css" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.dastrix.testjavafx.ShortController">
+    <children>
+        <Label fx:id="titile" alignment="CENTER" prefHeight="74.0" prefWidth="600.0" style="-fx-background-color: #343434;" stylesheets="@style.css" text="Сокращение ссылок" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="0.0">
+            <font>
+                <Font name="System Bold" size="25.0" />
+            </font>
+        </Label>
+        <TextField fx:id="poln_ss" focusTraversable="false" layoutX="39.0" layoutY="84.0" prefHeight="42.0" prefWidth="235.0" promptText="Полная ссылка" styleClass="text-field" stylesheets="@style.css">
+            <font>
+                <Font name="Montserrat Regular" size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="sokr_ss" focusTraversable="false" layoutX="39.0" layoutY="142.0" prefHeight="42.0" prefWidth="235.0" promptText="Сокращенная ссылка" styleClass="label" stylesheets="@style.css">
+            <font>
+                <Font name="Montserrat Regular" size="14.0" />
+            </font>
+        </TextField>
+        <Button fx:id="btn_add" layoutX="73.0" layoutY="226.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="166.0" stylesheets="@style.css" text="Добавить" textFill="WHITE">
+            <font>
+                <Font name="Montserrat Regular" size="14.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Label fx:id="lbl" layoutX="39.0" layoutY="184.0" prefHeight="42.0" prefWidth="235.0" style="-fx-background-color: #6b6860;" styleClass="lbl" stylesheets="@style.css" textFill="orangered">
+            <font>
+                <Font size="14.0" />
+            </font></Label>
+        <ScrollPane fx:id="scrl_p" focusTraversable="false" hbarPolicy="NEVER" layoutX="300.0" layoutY="75.0" prefHeight="209.0" prefWidth="302.0" style="-fx-background-color: #6b6860;" stylesheets="@style.css">
+            <content>
+                <VBox fx:id="vbox" prefHeight="213.0" prefWidth="301.0" style="-fx-background-color: #6b6860;" styleClass="scroll-pane" />
+            </content></ScrollPane>
+    </children>
+</AnchorPane>

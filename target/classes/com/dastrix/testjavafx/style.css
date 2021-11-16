@@ -1,0 +1,59 @@
+
+.anchor-pane {
+    -fx-background-color: #6b6860;
+}
+
+.text-field {
+    -fx-text-fill: #fafafa;
+    -fx-background-color: #6b6860;
+    -fx-border-color: #fafafa;
+    -fx-border-radius: 10;
+    -fx-padding: 10 20;
+}
+
+.text-field:focused {
+    -fx-border-color: #ff0000;
+}
+
+.link:hover {
+    -fx-text-fill: #ff0000;
+}
+
+.button {
+    -fx-background-color:  #6b6860;
+    -fx-border-radius: 10;
+    -fx-padding: 10 20;
+    -fx-border-color: #fafafa;
+}
+
+.button:hover {
+
+    -fx-text-fill: orange;
+    -fx-border-color: orange;
+
+}
+
+.button:pressed {
+    -fx-background-color: orange;
+    -fx-text-fill: red;
+
+    -fx-border-radius: 10;
+}
+
+.scroll-pane {
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-background-color: #6b6860;
+}
+
+.scroll-pane:focused {
+    -fx-background-insets: 0;
+}
+
+.scroll-pane .corner {
+    -fx-background-insets: 0;
+}
+
+.label {
+    -fx-background-color: #6b6860;
+}

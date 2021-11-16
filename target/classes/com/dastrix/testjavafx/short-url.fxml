@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="301.0" style="-fx-background-color: #6b6860;" stylesheets="@style.css" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml">
+    <children>
+        <Label layoutX="3.0" prefHeight="42.0" prefWidth="150.0" stylesheets="@style.css" text="Сокращение: " textFill="WHITE">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label fx:id="sokr_ss" layoutX="151.0" prefHeight="42.0" prefWidth="150.0" stylesheets="@style.css" text="сокр" textAlignment="CENTER" textFill="orangered" underline="true">
+            <font>
+                <Font size="22.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Label>
+    </children>
+</AnchorPane>
