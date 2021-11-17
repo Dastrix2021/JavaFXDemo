@@ -35,7 +35,7 @@
 
 .button:pressed {
     -fx-background-color: orange;
-    -fx-text-fill: red;
+    -fx-text-fill: #180e87;
 
     -fx-border-radius: 10;
 }

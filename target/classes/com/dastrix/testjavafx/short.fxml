@@ -35,7 +35,7 @@
                 <Cursor fx:constant="HAND" />
             </cursor>
         </Button>
-        <Label fx:id="lbl" layoutX="39.0" layoutY="184.0" prefHeight="42.0" prefWidth="235.0" style="-fx-background-color: #6b6860;" styleClass="lbl" stylesheets="@style.css" textFill="orangered">
+        <Label fx:id="lbl" layoutX="39.0" layoutY="184.0" prefHeight="42.0" prefWidth="235.0" style="-fx-background-color: #6b6860;" styleClass="lbl" stylesheets="@style.css" textFill="#180e87">
             <font>
                 <Font size="14.0" />
             </font></Label>

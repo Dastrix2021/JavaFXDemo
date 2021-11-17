@@ -13,7 +13,7 @@
                 <Font size="22.0" />
             </font>
         </Label>
-        <Label fx:id="sokr_ss" layoutX="151.0" prefHeight="42.0" prefWidth="150.0" stylesheets="@style.css" text="сокр" textAlignment="CENTER" textFill="orangered" underline="true">
+        <Label fx:id="sokr_ss" layoutX="151.0" prefHeight="42.0" prefWidth="150.0" stylesheets="@style.css" text="сокр" textAlignment="CENTER" textFill="#180e87" underline="true">
             <font>
                 <Font size="22.0" />
             </font>
